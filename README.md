@@ -5,6 +5,13 @@
 - pip freeze > requirements.txt
 - pip install djangorestframework
 - pip install django-filter
+- pip install dj-rest-auth==2.1.9
+
+- pip install 'dj-rest-auth[with_social]'  **NOT SURE**
+
+- pip install djangorestframework-simplejwt==4.7.2
+-  **Pagination**
+- JASON Web token 
 - python3 manage.py createsuperuser
 
 - ### python manage.py startapp (and name of the app)

@@ -50,6 +50,15 @@ INSTALLED_APPS = [
     'cloudinary',
     'rest_framework',
     'django-filters',
+    'rest_framework.authtoken', 
+    'dj_rest_auth',
+    'django.contrib.sites', 
+    'allauth', 
+    'allauth.account', 
+    'allauth.socialaccount', 
+    'dj_rest_auth.registration',
+
+
     
     
 ]
