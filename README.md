@@ -7,7 +7,7 @@
 - pip install django-filter
 - pip install dj-rest-auth==2.1.9
 
-- pip install 'dj-rest-auth[with_social]'  **NOT SURE**
+- pip install 'dj-rest-auth[with_social]'  <----- NOT THIS  #  BUT THIS ------>  pip install dj-rest-auth[with_social]
 
 - pip install djangorestframework-simplejwt==4.7.2
 -  **Pagination**
