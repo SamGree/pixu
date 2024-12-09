@@ -10,6 +10,7 @@
 - pip install 'dj-rest-auth[with_social]'  <----- NOT THIS  #  BUT THIS ------>  pip install dj-rest-auth[with_social]
 
 - pip install djangorestframework-simplejwt==4.7.2
+- pip3 install dj_database_url==0.5.0 psycopg2
 -  **Pagination**
 - JASON Web token 
 - python3 manage.py createsuperuser
