@@ -34,7 +34,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-samgree-pixu-pvelanddf4k.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
-    'django-filters',
+    'django_filters',
     'rest_framework.authtoken', 
     'dj_rest_auth',
     'django.contrib.sites', 
